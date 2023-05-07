@@ -1,0 +1,8 @@
+.label {
+    display: block;
+    padding-bottom: 5px;
+}
+.select {
+    padding: 10px 3px;
+    width: 100%;
+}
