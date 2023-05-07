@@ -1,14 +1,20 @@
 import './App.css';
-import Button from './components/button'
+import Header from './components/header'
+import SideMenu from './components/sideMenu';
+import Tabs from './components/tabs';
 function App() {
+  const tabs= [{name:"Home"},{name:"Editions"},{name:"Individual agent report"},{name:"Individual shop report"},{name:"All shops report"}]
+ 
   return (
     <div className="App">
-     <Button/>
-     <Button/>
-     <Button/>
-     <Button/>
-     <Button/>
-     <Button/>
+     <Header/>
+     <div className='container'>
+     <SideMenu/>
+          <div className='main-content'>
+            <Tabs tabs={tabs}/>
+        
+          </div>
+     </div>
     </div>
   );
 }
