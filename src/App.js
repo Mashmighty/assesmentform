@@ -3,7 +3,6 @@ import Header from './components/header'
 import SideMenu from './components/sideMenu';
 import Tabs from './components/tabs';
 import Select from './components/select';
-import myForm from './components/formQuestionnaire';
 function App() {
   const tabs= [{name:"Home"},{name:"Editions"},{name:"Individual agent report"},{name:"Individual shop report"},{name:"All shops report"}]
   const options= [{name:"January",value:"January"},{name:"February",value:"February"},{name:"March",value:"March"},{name:"April",value:"April"},{name:"May",value:"May"},
