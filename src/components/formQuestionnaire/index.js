@@ -6,4 +6,4 @@ const myForm = () => {
   )
 }
 
-export default myForm2
+export default myForm
