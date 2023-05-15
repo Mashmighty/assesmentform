@@ -14,7 +14,7 @@ function App() {
   {name:"I&M",value:"I&M"},{name:"JKIA",value:"JKIA"},{name:"Junction",value:"Junction"},{name:"Kakamega",value:"Kakamega"},{name:"Kericho",value:"Kericho"},{name:"Kimathi",value:"Kimathi"},
   {name:"Kisii",value:"Kisii"},{name:"Kisumu - Jubilee",value:"Kisumu - Jubilee"},{name:"Kisumu - tuffoam",value:"Kisumu - tuffoam"},{name:"Kitale",value:"Kitale"},{name:"Kitengela",value:"Kitengela"},{name:"Kitui",value:"Kitui"},
   {name:"Machakos",value:"Machakos"},{name:"Malindi",value:"Malindi"},{name:"Maua",value:"Maua"},{name:"Meru",value:"Meru"},{name:"MIA",value:"MIA"},{name:"Migori",value:"Migori"},
-  {name:"Moi avenue",value:"Moi avenue"},{name:"Naivasha",value:"Naivasha"},{name:"Nakumatt Mega",value:"Nakumatt Mega"},{name:"Nakuru",value:"Nakuru"},{name:"Nakuru Westside",value:"Nakuru Westside"},{name:"Nanyuki",value:"Nanyuki"},
+  {name:"Moi avenue",value:"Moi avenue"},{name:"Naivasha",value:"Naivasha"},{name:"Nakumatt Mega",value:"Nakumatt Mega"},{name:"Nakuru Ereto",value:"Nakuru Ereto"},{name:"Nakuru Westside",value:"Nakuru Westside"},{name:"Nanyuki",value:"Nanyuki"},
   {name:"Narok",value:"Narok"},{name:"Nyahururu",value:"Nyahururu"},{name:"Nyali",value:"Nyali"},{name:"Nyeri",value:"Nyeri"},{name:"Rex",value:"Rex"},{name:"Ronald Ngala",value:"Ronald Ngala"},
   {name:"Sarit",value:"Sarit"},{name:"The hub",value:"The hub"},{name:"Thika",value:"Thika"},{name:"Trm",value:"Trm"},{name:"Village market",value:"Village market"},{name:"Westgate",value:"Westgate"}]
   //agents will need to get from an agent database. To be configured
