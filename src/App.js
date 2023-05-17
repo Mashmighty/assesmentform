@@ -4,7 +4,7 @@ import Header from './components/header'
 import SideMenu from './components/sideMenu';
 import Tabs from './components/tabs';
 import Select from './components/select';
-import {options, years, agents} from "./constants";
+import {options, years,} from "./constants";
 import { shops } from './data';
 function App() {
   const [agents, setAgents]= useState([])
