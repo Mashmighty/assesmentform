@@ -5,10 +5,11 @@ const SideMenu = () => {
     <div className='side-menu'>
         <div className='title'>Navigation menu</div>          
         <ul className='side-links'>
-          <li className='link'>RCSC assesment 2023</li>
-          <li className='link'>RCSC assesment archive</li>
-          <li className='link'>Finance system</li>
-          <li className='link'>RCSC assesment 2020</li>
+          <li className='link'>RCSC ASSESMENT 2023</li>
+          <li className='link'>TEAM LEADER ASSESMENT</li>
+          <li className='link'>CEE ASSESMENT</li>
+          <li className='link'>BANKING AND RECONCILIATION</li>
+          <li className='link'>ASSESMENTS ARCHIVE</li>
         </ul>
       </div>
   )
