@@ -27,7 +27,7 @@ export const shops= [{
         {"name":"Gerald Kariuki","rights":["view"],"role":"Manager"},
         {"name":"Nina Karoki","rights":["view"],"role":"Team leader"},
         {"name":"Tijarah Kavuma","rights":["view"],"role":"Stock controller"},
-        {"name":"Francis Kimani","rights":["view"],"role":"CEE"}
+        {"name":"Esther Kimani","rights":["view"],"role":"CEE"}
     ]
 
 }]

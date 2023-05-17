@@ -58,10 +58,10 @@ console.log (shop)
             <Select options={years} label="Year" placeHolder="Select Year"/><Select options={getShops()} onChange={(e)=>shopHandler(e.target.value)}
             value={selectedShop} label="Retail centre" placeHolder="Select centre"/>
             <Select options={agents} onChange={(e)=>agentHandler(e.target.value)} value={selectedAgent} label="Agent name" placeHolder="Select name"/></div>
-            {selectedRole ==="Manager" && "i ama a manager"}
-     {selectedRole ==="Team leader" && "i ama a Team leader"}
-     {selectedRole ==="Stock controller" && "i ama a Stock controller"}
-     {selectedRole ==="CEE" && "i ama a CEE"}
+            {selectedRole ==="Manager" && "i am a manager"}
+     {selectedRole ==="Team leader" && "i am a Team leader"}
+     {selectedRole ==="Stock controller" && "i am a Stock controller"}
+     {selectedRole ==="CEE" && "i am a CEE"}
           </div>
           
      </div>
