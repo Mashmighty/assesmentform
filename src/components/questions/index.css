@@ -1,0 +1,14 @@
+.question-body {
+    display: grid;
+    grid-template-columns: 3fr repeat(5, 1fr);
+    margin: 10px 0;
+}
+.question {
+    margin: 0;
+}
+.question-footer {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    margin: 20px 0;
+}
+.question-footer text-area{width: 100%}

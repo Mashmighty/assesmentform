@@ -1,0 +1,10 @@
+.form-header {
+    background-color: #e2e5e9;
+    display: grid;
+    grid-template-columns: 3fr repeat(5, 1fr);
+    padding: 16px 0;
+  }
+  .form-header div{
+    display: flex;
+    align-items: center;
+  }

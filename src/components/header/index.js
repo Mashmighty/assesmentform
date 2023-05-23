@@ -1,9 +1,9 @@
 import React from 'react'
 import "./index.css"
-const Header = () => {
+const Header = ({title, height="60px"}) => {
   return (
-    <div className='header'>
-        <h3 className='title'>RETAIL OPERATIONS AND COMPLIANCE</h3>
+    <div className='header'style={{height: `${height}`}}>
+        <h3 className='title'>{title}</h3>
     </div>
   )
 }

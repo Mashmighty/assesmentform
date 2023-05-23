@@ -6,6 +6,7 @@ import Tabs from './components/tabs';
 import Select from './components/select';
 import {options, years,} from "./constants";
 import { shops } from './data';
+import FormQuestionnaire from './components/formQuestionnaire';
 function App() {
   const [agents, setAgents]= useState([])
   const [selectedShop, setSelectedShop]= useState("")
@@ -48,7 +49,7 @@ console.log (shop)
   };
   return (
     <div className="App">
-     <Header/>
+     <Header title="RETAIL OPERATIONS AND COMPLIANCE"/>
      <div className='container'>
      <SideMenu/>
           <div className='main-content'>
@@ -62,6 +63,7 @@ console.log (shop)
      {selectedRole ==="Team leader" && "i am a Team leader"}
      {selectedRole ==="Stock controller" && "i am a Stock controller"}
      {selectedRole ==="CEE" && "i am a CEE"}
+     <FormQuestionnaire/>
           </div>
           
      </div>
